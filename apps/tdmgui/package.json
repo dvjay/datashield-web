@@ -25,7 +25,7 @@
     "@types/node": "catalog:",
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
-    "autoprefixer": "^10.4.20",
+    "autoprefixer": "catalog:",
     "eslint": "catalog:",
     "postcss": "catalog:",
     "tailwindcss": "catalog:",

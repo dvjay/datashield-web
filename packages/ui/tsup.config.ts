@@ -3,8 +3,7 @@ import { defineConfig } from 'tsup';
 export default defineConfig({
   entry: {
     index: 'src/index.ts',
-    button: 'src/components/Button/index.ts',
-    card: 'src/components/Card/index.ts',
+    button: 'src/components/button/index.ts',
   },
   format: ['cjs', 'esm'],
   dts: true,
