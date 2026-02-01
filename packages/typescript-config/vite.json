@@ -1,0 +1,23 @@
+{
+  "extends": "./base.json",
+  "compilerOptions": {
+    "composite": false,
+    "forceConsistentCasingInFileNames": true,
+    "target": "ES2022",
+    "inlineSources": false,
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "sourceMap": true,
+    "preserveWatchOutput": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "types": ["vite/client"],
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules"]
+}
+
