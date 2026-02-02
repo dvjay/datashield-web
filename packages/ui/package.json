@@ -27,7 +27,8 @@
     "dev:styles": "tailwindcss -i ./src/styles/index.css -o ./dist/index.css --watch",
     "dev": "tsup --watch",
     "lint": "eslint . --max-warnings 0",
-    "clean": "rm -rf .turbo node_modules dist"
+    "clean": "rimraf .turbo dist",
+    "clean:full": "rimraf .turbo dist node_modules"
   },
   "peerDependencies": {
     "react": "catalog:",
@@ -44,6 +45,7 @@
     "typescript": "5.9.2",
     "tsup": "^8.5.1",
     "tailwindcss": "catalog:",
-    "autoprefixer": "catalog:"
+    "autoprefixer": "catalog:",
+    "rimraf": "catalog:"
   }
 }

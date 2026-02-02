@@ -29,6 +29,7 @@
     "typescript-eslint": "catalog:",
     "postcss": "catalog:",
     "tailwindcss": "catalog:",
-    "vite": "catalog:"
+    "vite": "catalog:",
+    "rimraf": "catalog:"
   }
 }
