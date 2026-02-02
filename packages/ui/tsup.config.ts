@@ -15,7 +15,7 @@ export default defineConfig({
   injectStyle: true,
   // OR use CSS extraction (recommended for libraries)
   // injectStyle: false,
-  esbuildOptions(options) {
+  esbuildOptions(options: { banner: { js: string; }; }) {
     options.banner = {
       js: '"use client"', // For Next.js 13+ app directory
     };
